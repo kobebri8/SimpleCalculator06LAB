@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="text" id="firstnumber">
+        </div>
+       <div>
+          <button type="sum" onclick="Sum()">+</button>
+          <button type="difference" onclick="Difference()">-</button>
+          <button type="product" onclick="Product()">*</button>
+          <button type="quotient" onclick="Quotient()">/</button>
+          <button type="equals" onclick="Equals()">=</button>  
+          <button type="0" onclick="Clear()">C</button>
+          
+       </div>
+       <div>
+           <h3>Result: <span id="result">0</span></h3>
+       </div>
+    </form>
+    <script src="Calculator.js"></script>
+</body>
+</html>
